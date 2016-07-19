@@ -61,3 +61,8 @@
 
 ## -theme bootstrap free-
 - 'start bootstrap': http://startbootstrap.com/
+
+## -Circle CI.-
+- ./vendor/bin/phpcs -n --standard=phpcs.xml
+- auto fix error [x]: ./vendor/bin/phpcbf -n --standard=phpcs.xml
+- ./vendor/bin/phpmd app text phpmd.xml
