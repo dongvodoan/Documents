@@ -7,6 +7,7 @@
 ## -Laravel.-
 - 'Format date in Php': http://php.net/manual/en/function.date.php
 - 'Strtotime': http://php.net/manual/en/function.strtotime.php
+- http://cheats.jesse-obrien.ca/
 
 ## -Icon beauty.-
 - 'Smashing Magazine': http://www.smashingmagazine.com/tag/freebies/
