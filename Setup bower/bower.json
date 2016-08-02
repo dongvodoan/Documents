@@ -1,0 +1,11 @@
+{
+  "name": "Borrowing_Book_Management",
+  "description": "Borrowing Book Management",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/bower_dl",
+    "test",
+    "tests"
+  ]
+}
