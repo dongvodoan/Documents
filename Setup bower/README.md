@@ -73,7 +73,7 @@ or please you search google if this cannot install nodejs :)
 
   - run command in your project: `gulp` or `sudo gulp`
 
-  ## Complete! if you have question about setuo bower, you can contact me! fb:Cu Spirit
+  ## Complete! if you have question about setup bower, you can contact me! fb:Cu Spirit
 
   - link need: http://laravelcoding.com/blog/laravel-5-beauty-using-bower 
 
