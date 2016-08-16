@@ -1,15 +1,15 @@
 # Documents
-## -Git.-
+## Git.
 'Git Tutorial.'
 - 'Git Tutorial P1': https://viblo.asia/michal.plachy/posts/5y8Rr7oAMob3
 - 'Git Tutorial P2': 'https://viblo.asia/michal.plachy/posts/157G5oW8RAje
 
-## -Laravel.-
+## Laravel.
 - 'Format date in Php': http://php.net/manual/en/function.date.php
 - 'Strtotime': http://php.net/manual/en/function.strtotime.php
 - http://cheats.jesse-obrien.ca/
 
-## -Icon beauty.-
+## Icon beauty.
 - 'Smashing Magazine': http://www.smashingmagazine.com/tag/freebies/
 - 'Freepik': http://www.freepik.com/
 - 'Gravual': http://gravual.com/free-icons/
@@ -60,13 +60,13 @@
 - 'IconArchive': http://www.iconarchive.com/
 - 'IconArchive': http://thesquid.ink/flat-icons/
 
-## -theme bootstrap free-
+## theme bootstrap free
 - 'start bootstrap': http://startbootstrap.com/
 
-## -Circle CI.-
+## Circle CI.
 - ./vendor/bin/phpcs -n --standard=phpcs.xml
 - auto fix error [x]: ./vendor/bin/phpcbf -n --standard=phpcs.xml
 - ./vendor/bin/phpmd app text phpmd.xml
 
-## -Tutorialspoint.-
+## Tutorialspoint.
 - http://www.tutorialspoint.com/
