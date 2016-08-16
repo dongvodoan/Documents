@@ -12,6 +12,7 @@ or please you search google if this cannot install nodejs :)
 		`{
   			"directory": "vendor/bower_dl"
 		}`
+
  III. Installing Bower Locally:
 
  - stay your project run command: `npm install bower` or `sudo npm install bower`.
