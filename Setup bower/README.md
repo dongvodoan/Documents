@@ -57,12 +57,12 @@ or please you search google if this cannot install nodejs :)
   - zip file .css: Compile css
 
   `mix.styles([
-  	  'gentelella/vendors/bootstrap/dist/css/bootstrap.min.css',
-  	  'gentelella/vendors/font-awesome/css/font-awesome.min.css',
+      'gentelella/vendors/bootstrap/dist/css/bootstrap.min.css',
+      'gentelella/vendors/font-awesome/css/font-awesome.min.css',
       'datatables.net-dt/css/jquery.dataTables.min.css',
       'datatables.net-responsive-dt/css/responsive.dataTables.min.css',
       'jquery-ui/themes/base/jquery-ui.min.css',
-      'morris.js/morris.css' 
+      'morris.js/morris.css'
   ], 
     'public/backend/css/vendor.css',
     'vendor/bower_dl'
