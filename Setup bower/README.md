@@ -1,4 +1,4 @@
-##Installing Bower tutorial - Setup by setup
+##Installing Bower tutorial - Step by step
  I. Setup node.js:
 
 - link research: https://nodejs.org/en/download/package-manager/ 
