@@ -70,3 +70,6 @@
 
 ## Tutorialspoint.
 - http://www.tutorialspoint.com/
+
+## Way to install packages in ubuntu
+- http://www.gocit.vn/bai-viet/co-ban-ve-cai-dat-phan-mem-tren-linux/
