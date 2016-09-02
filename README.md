@@ -73,3 +73,8 @@
 
 ## Way to install packages in ubuntu
 - http://www.gocit.vn/bai-viet/co-ban-ve-cai-dat-phan-mem-tren-linux/
+
+## Link setup environment
+- https://viblo.asia/tieppt/posts/3KbvZqbOGmWB
+- https://topthuthuat.com/thu-thuat-ubuntu/cach-cai-dat-may-ao-virtualbox-moi-nhat-cho-ubuntu
+- http://phpcoban.com/gioi-thieu-va-cai-dat-composer-tren-ubuntu/
