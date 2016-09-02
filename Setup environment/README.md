@@ -20,9 +20,11 @@
     - Now, Install it:
         - `sudo apt-get install virtualbox-4.3`
         OK! Complete install Virtual-box.
+
 ## 2. Install Vagrant
     - Link download: https://www.vagrantup.com/downloads.html
     - install vagrant-plugin by this cmd: `vagrant plugin install vagrant-vbguest`
+
 ## 3. Install Composer
     - Open terminal run this cmnd: `curl -s http://getcomposer.org/installer | php`
     - Use this cmd to check download composer complete: `php composer.phar`
@@ -30,6 +32,7 @@
     `sudo mv composer.phar /usr/bin/composer`
     - `*Note`
     	- above commands and composer need PHP 5.3.2+ to run, you must sure installed it. when you run aboce commands by terminal, it'll has error and 1 line command to install PhP. you run this command to OK!
+
 ## 4.1 Setup environment Homestead
     - Add box vagrant: `vagrant box add laravel/homestead`
     download box too long, you waitting for it download complete.
@@ -64,6 +67,7 @@
 			`vagrant halt #Shutdown virtual-machine`
 			`vagrant ssh #go to virtual-machine thought ssh`
 			`vagrant provision #update config virtual-machine`
+			
 ## 4.2 Setup environment Cestos-7
 	-  Steps to install
 
