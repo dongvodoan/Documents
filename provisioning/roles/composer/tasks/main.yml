@@ -1,0 +1,10 @@
+# roles/composer/task/main.yml
+---
+- name: Install Composer
+  shell: curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer creates=/usr/local/bin/composer
+
+- name: Composer Self Update
+  sudo: false
+  
+  shell: composer self-update
+- composer: command=install working_dir={{ git.repos_dir }}

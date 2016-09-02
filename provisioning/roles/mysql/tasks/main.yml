@@ -1,0 +1,22 @@
+# file: roles/mysql/tasks/main.yml
+---
+- name: add repo
+  yum: name=http://dev.mysql.com/get/mysql57-community-release-el7-7.noarch.rpm state=present
+
+- name: install mysql-community-server
+  yum: name=mysql-community-server state=installed
+
+- name: install MySQL-python for ansible mysql_user module
+  yum: name=MySQL-python state=installed
+
+- name: start server
+  service: name=mysqld state=started enabled=yes
+  
+- name: save-mysql-tmp-password.sh
+  script: save-mysql-tmp-password.sh creates=/root/.tmp.my.cnf
+
+- name: set new password
+  script: change-root-password.sh creates=/root/.my.cnf
+
+- name: create database
+  shell: mysql --defaults-file=/root/.my.cnf -e "create database IF NOT EXISTS {{ mysql.db_database }} character set utf8 collate utf8_general_ci "  

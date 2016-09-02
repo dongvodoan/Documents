@@ -1,0 +1,32 @@
+# file: roles/php56/tasks/install.yml
+---
+# file: roles/php/tasks/install.yml
+# - name: Add repository 'epel-repo'
+#   yum: name=http://ftp-srv2.kddilabs.jp/Linux/distributions/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm state=present
+
+- name: Add repository 'rpmforge-repo'
+  yum: name=https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm state=present
+
+- name: Add repository 'remi-repo'
+  yum: name=https://mirror.webtatic.com/yum/el7/webtatic-release.rpm state=present
+
+- name: upgrade all packages
+  yum: name=* state=latest
+
+- name: Instal php
+  yum: pkg={{ item }}
+  with_items:
+    - php70w
+    - php70w-cli
+    - php70w-common
+    - php70w-devel
+    - php70w-json
+    - php70w-curl
+    - php70w-mbstring
+    - php70w-mysql
+    - php70w-pdo
+    - php70w-process
+    - php70w-xml
+    - php70w-gd
+  notify:
+  - restart httpd

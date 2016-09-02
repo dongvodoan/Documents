@@ -1,0 +1,26 @@
+# file: api.yml
+---
+- hosts: 127.0.0.1
+  become: yes
+  become_user: root
+  gather_facts: no
+  vars:
+    app:
+      user: vagrant
+    git:
+      repos_url: https://github.com/laravel/laravel.git
+      repos_dir: /home/vagrant/myproject
+      branch: master
+    mysql:
+      db_user: mydatabase
+      db_password: Secret@123
+      db_database: mydatabase
+    doc_root: /var/www/html/myproject
+    domain: myproject.me
+  roles:
+    - init
+    - httpd
+    - app
+    - php70
+    - composer
+    - mysql

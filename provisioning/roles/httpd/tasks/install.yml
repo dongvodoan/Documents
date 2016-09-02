@@ -1,0 +1,7 @@
+# file: roles/httpd/tasks/install.yml
+---
+  - name: install apache web server
+    yum: pkg=httpd state=installed
+
+  - name: httpd is runnning and enabled
+    service: name=httpd state=running enabled=yes

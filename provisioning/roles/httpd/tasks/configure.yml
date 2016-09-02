@@ -1,0 +1,23 @@
+# file: roles/php/tasks/configure.yml
+---
+- name: update apache execute user
+  sudo: true
+  replace: >
+    dest=/etc/httpd/conf/httpd.conf
+    regexp='User apache'
+    replace='User vagrant'
+
+- name: update apache execute group
+  sudo: true
+  replace: >
+    dest=/etc/httpd/conf/httpd.conf
+    regexp='Group apache'
+    replace='Group vagrant'
+
+- name: change owner apache directory
+  file: path=/var/www/html owner=vagrant group=vagrant recurse=yes
+
+- name: create virtual host file
+  template: src=default.tpl dest=/etc/httpd/conf.d/{{ domain }}.conf
+  notify:
+  - restart httpd

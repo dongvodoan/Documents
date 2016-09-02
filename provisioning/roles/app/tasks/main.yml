@@ -1,0 +1,9 @@
+# file: roles/app/task/main.yml
+---
+- name: create symbolic link
+  sudo: true
+  file: src={{ git.repos_dir }} dest={{ doc_root }} owner=vagrant group=vagrant state=link
+
+- name: create .env file
+  sudo: false
+  command: cp {{ git.repos_dir }}/.env.example {{ git.repos_dir }}/.env

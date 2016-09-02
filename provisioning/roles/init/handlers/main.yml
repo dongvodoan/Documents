@@ -1,0 +1,4 @@
+# file: roles/int/handlers/main.yml
+---
+- name: restart iptables
+  service: name=iptables state=restarted

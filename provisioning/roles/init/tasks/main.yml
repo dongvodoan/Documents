@@ -1,0 +1,23 @@
+# file: roles/init/tasks/main.yml
+---
+- name: update yum
+  yum: name=* state=latest
+
+- name: install package
+  yum: pkg={{ item }} state=installed
+  with_items:
+     - git
+     - tree
+     - vim
+     - libselinux-python
+     - gcc
+
+- name: SELinux Disable
+  command: setenforce 0
+  ignore_errors: True
+
+- name: Edit selinux config
+  command: sed -i -e "s/^SELINUX=enforing/SELINUX=disabled/g" /etc/selinux/config
+
+- name: stop iptabes
+  service: name=iptables state=stopped

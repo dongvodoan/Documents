@@ -1,0 +1,6 @@
+# file: roles/php56/tasks/configure.yml
+---
+- name: php is configured
+  lineinfile: dest="/etc/php.ini" state=present regexp="^\;date.timezone =$" line="date.timezone = Asia/Ho_Chi_Minh" backrefs=yes
+  notify:
+    - restart httpd
