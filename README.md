@@ -7,7 +7,16 @@
 ## Laravel.
 - 'Format date in Php': http://php.net/manual/en/function.date.php
 - 'Strtotime': http://php.net/manual/en/function.strtotime.php
-- http://cheats.jesse-obrien.ca/
+- 'Sysntax': http://cheats.jesse-obrien.ca/
+- 'Laravelgenerator': http://labs.infyom.com/laravelgenerator/
+- 'Intervention Image': http://image.intervention.io/getting_started/installation
+
+## Librarys and extension good for development web
+- 'Isotope': http://isotope.metafizzy.co/#css
+- 'Font google': https://fonts.google.com/
+- 'Bootstrap': http://getbootstrap.com/
+- 'Responsinator': http://www.responsinator.com/
+- 'Animate': https://daneden.github.io/animate.css/
 
 ## Icon beauty.
 - 'Smashing Magazine': http://www.smashingmagazine.com/tag/freebies/
