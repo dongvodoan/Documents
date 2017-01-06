@@ -10,6 +10,9 @@
 - 'Sysntax': http://cheats.jesse-obrien.ca/
 - 'Laravelgenerator': http://labs.infyom.com/laravelgenerator/
 - 'Intervention Image': http://image.intervention.io/getting_started/installation
+- 'Eloquent Relationships': http://laptrinhx.com/topic/215/eloquent-relationships-in-laravel-5-3-chap-1
+- 'Tutorial': https://drive.google.com/drive/u/0/folders/0ByWO0aO1eI_MS2J4RkJybG4ydnc
+- 'selectize.js': http://selectize.github.io/selectize.js/
 
 ## Librarys and extension good for development web
 - 'Isotope': http://isotope.metafizzy.co/#css
@@ -17,6 +20,7 @@
 - 'Bootstrap': http://getbootstrap.com/
 - 'Responsinator': http://www.responsinator.com/
 - 'Animate': https://daneden.github.io/animate.css/
+- 'Summernote': http://summernote.org/
 
 ## Icon beauty.
 - 'Smashing Magazine': http://www.smashingmagazine.com/tag/freebies/
@@ -71,6 +75,7 @@
 
 ## theme bootstrap free
 - 'start bootstrap': http://startbootstrap.com/
+- 'css Author - Admin': http://www.cssauthor.com/
 
 ## Circle CI.
 - ./vendor/bin/phpcs -n --standard=phpcs.xml
