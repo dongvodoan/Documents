@@ -21,6 +21,8 @@
 - 'Responsinator': http://www.responsinator.com/
 - 'Animate': https://daneden.github.io/animate.css/
 - 'Summernote': http://summernote.org/
+- 'Draft js': https://facebook.github.io/draft-js/
+- 'React js': https://facebook.github.io/react/
 
 ## Icon beauty.
 - 'Smashing Magazine': http://www.smashingmagazine.com/tag/freebies/
