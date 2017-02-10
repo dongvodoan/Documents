@@ -94,3 +94,4 @@
 - https://viblo.asia/tieppt/posts/3KbvZqbOGmWB
 - https://topthuthuat.com/thu-thuat-ubuntu/cach-cai-dat-may-ao-virtualbox-moi-nhat-cho-ubuntu
 - http://phpcoban.com/gioi-thieu-va-cai-dat-composer-tren-ubuntu/
+- 'Setup LAMP - much more': https://docs.google.com/document/d/1YLV3iibS5jFHzMnJx7I47sDGp8TwuZnIQxOw5a-paLI/edit
