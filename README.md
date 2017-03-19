@@ -23,6 +23,7 @@
 - 'Summernote': http://summernote.org/
 - 'Draft js': https://facebook.github.io/draft-js/
 - 'React js': https://facebook.github.io/react/
+- 'ihover': https://github.com/gudh/ihover#64t2034323s2v2b44403v294x2240313
 
 ## Icon beauty.
 - 'Smashing Magazine': http://www.smashingmagazine.com/tag/freebies/
