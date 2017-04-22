@@ -25,7 +25,7 @@
 - 'React js': https://facebook.github.io/react/
 - 'ihover': https://github.com/gudh/ihover#64t2034323s2v2b44403v294x2240313
 - 'Animista': http://animista.net/
-- 'Effect back top top': http://tholman.com/elevator.js/?utm_source=juno_okyo
+- 'Effect back to top': http://tholman.com/elevator.js/?utm_source=juno_okyo
 
 ## Icon beauty.
 - 'Smashing Magazine': http://www.smashingmagazine.com/tag/freebies/
