@@ -26,7 +26,8 @@
 - 'ihover': https://github.com/gudh/ihover#64t2034323s2v2b44403v294x2240313
 - 'Animista': http://animista.net/
 - 'Effect back to top': http://tholman.com/elevator.js/?utm_source=juno_okyo
-
+## small chat
+- https://small.chat/index.html
 ## Icon beauty.
 - 'Smashing Magazine': http://www.smashingmagazine.com/tag/freebies/
 - 'Freepik': http://www.freepik.com/
