@@ -1,4 +1,5 @@
-# TUTORIAL STEP BY STEP: SETUP REACT-NATIVE FOR ANDROID (IN WINDOWS)
+# TUTORIAL STEP BY STEP: SETUP REACT-NATIVE 
+# ANDROID (IN WINDOWS)
 ## Step 1
 	- Install Nodejs: `https://nodejs.org/en/`
 	- Install Python2: `https://www.python.org/downloads/`
@@ -55,6 +56,52 @@
 	- cd {Name Your Project}
 	- run command: `react-native start`
 	- open new cmd and cd {your project}: `react-native run-android`
+	
+# ANDROID (IN MACOS)
+## Step 1
+	- Install Nodejs: `https://nodejs.org/en/`
+	- Install Python2: `https://www.python.org/downloads/mac-osx/`
+	* Check version
+		- nodejs: `node --version`
+		- npm: `npm --version`
+		- python: `python --version`
+## Step 2
+	- Install HomeBrew: `https://brew.sh/`
+	- Update brew: `brew update` // run this to update your existing brew installation
+	- Install watchman: `brew install watchman` // install new fresh watchman
+	- Upgrade watchman: `brew upgrade watchman` // update existing watchman
+## Step 3
+	- Install react-native cli:
+	`sudo npm uninstall -g react-native-cli` // if already installed
+        `sudo npm install -g react-native-cli`
+## Step 4:
+	- Install Java developer Kit: (download and install)
+	`http://www.oracle.com/technetwork/java/javase/downloads/index.html`
+	- Config Path:
+	+ Add path: run `vi ~/.bash_profile` to open file .bash_profile and add config path:
+	`export ANDROID_HOME=$HOME/Library/Android/sdk
+	export JAVA_HOME=$(/usr/libexec/java_home)
+	PATH=$PATH:$ANDROID_HOME/emulator
+	PATH=$PATH:$ANDROID_HOME/tools
+	PATH=$PATH:$ANDROID_HOME/platform-tools
+	PATH=$PATH:$ANDROID_HOME/tools/bin
+	PATH="/Applications/XAMPP/xamppfiles/bin:$PATH" // xampp (ignore this row)
+	export PATH`
+	+ run: `source ~/.bash_profile`
+## Step 5: Download and install Android Studio (same step 4 setup on window)
+## Step 6: 
+	- Tools -> android -> avd manager -> create a new avd -> open avd
+## Step 7: (same step 7 setup on window)
+
+## IOS on MacOS
+## Apply step 1,2,3 setup android on mac
+## Open App Store -> Install X-code
+## Create project and run:
+	- Create Project React-Native `react-native init {Name Your Project}`
+	- cd {Name Your Project}
+	- run command: `react-native start`
+	- open new cmd and cd {your project}: `react-native run-ios`
+
  GOODLUCK!!!
 
 ### link detail `https://facebook.github.io/react-native/docs/getting-started.html`
